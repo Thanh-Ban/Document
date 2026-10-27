@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONF_IPGroup>
+  <IPGroups ip_group_name="TEST_IMPORT_F4PA" ip_group_desc="Test import" ip_group_speed="1000000000">
+    <GrpIPNetwork netmask_addr_id="255.224.0.0" network_addr_id="1.0.0.0" flag="include"/><GrpIPNetwork netmask_addr_id="254.0.0.0" network_addr_id="2.0.0.0" flag="include"/><GrpIPNetwork netmask_addr_id="252.0.0.0" network_addr_id="4.0.0.0" flag="include"/><Selected_Devices>
+      <Router Router_Name="F4-PA">
+        <Interface interface_name="ethernet1/3"/>
+      </Router>
+    </Selected_Devices>
+  </IPGroups>
+  </CONF_IPGroup>
